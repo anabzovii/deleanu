@@ -26,24 +26,6 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <script  src="https://api.apispreadsheets.com/data/10441/"  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
-  <script>
-    function SubForm (){
-        $.ajax({
-            url:'https://api.apispreadsheets.com/data/410/',
-            type:'post',
-            data:$("#myForm").serializeArray(),
-            success: function(){
-              alert("Form Data Submitted :)")
-            },
-            error: function(){
-              alert("There was an error :(")
-            }
-        });
-    }
-    </script>
   <!-- =======================================================
   * Template Name: Mentor - v4.0.1
   * Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
