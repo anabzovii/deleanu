@@ -1561,6 +1561,18 @@ section {
   }
 }
 
+@media screen and (min-width: 1440px){
+  .formulare{
+    padding: 20px 200px;
+  }
+}
+/*
+@media screen and (min-width: 360px){
+  .formulare{
+    padding: 15px;
+  }
+}*/
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
